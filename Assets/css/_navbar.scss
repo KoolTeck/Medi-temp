@@ -1,0 +1,6 @@
+
+  @media screen and (max-width:450px){
+    .navbar-light .navbar-toggler-icon {
+        background-image: escape-svg($navbar-dark-toggler-icon-bg);
+      }
+  }

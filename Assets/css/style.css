@@ -1,0 +1,160 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../images/Rectangle\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+header.container-fluid{
+    background-color: rgba(0, 0, 0, 0.274);
+}
+
+nav > a > span{
+    color: #0052FF;
+} /* logo */
+
+
+nav > a > span:nth-child(2){
+    color: #fff;
+}  /* logo */
+
+.navbar .navbar-nav .nav-link{
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    color: #0052FF;
+}
+
+#navbarSupportedContent > ul > li.nav-item.active > a {
+    color: #fff;
+}
+
+#navbarSupportedContent > ul > li.nav-item.active > a:hover{
+    color: #0052FF;
+}
+
+.left{
+    margin-left: 40%;
+    font-size: 15px;
+    width: 60%;
+    text-align: center;
+}
+
+.left li{
+    padding: 10px;
+}
+
+.trans{
+    background-color: rgba(0, 0, 0, 0.274); 
+    height: 700px;  
+    text-align: center;
+    color: #ffff;
+    line-height: 40px;
+}
+
+div.container{
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+div.container h2{
+    font-weight: normal;
+    left: 50%;
+    font-weight: normal;
+    margin-top: 180px;
+}
+
+div.container p{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+div.container p span {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.btn .bg-primary{
+    background-color: #0052FF;
+}
+
+button > span{
+    color: #fff;
+}
+
+/* landing page media querry */
+@media screen and (max-width:1150px) { 
+.left li{
+    padding: 0;
+}
+
+}
+
+@media screen and (max-width:991px) { 
+   
+div.container p{
+    font-size: 60px;
+}
+
+.left{
+    margin-left:0;
+    font-size: 15px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+.trans{
+    height: 670px;
+}
+  
+div.container h2{
+    margin-top: 300px;
+}
+    
+}
+
+@media screen and (max-width:770px) { 
+   
+    div.container p{
+        font-size: 40px;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-color: #ffff;
+    }
+}
+
+
+@media screen and (max-width:450px) { 
+   
+    .navbar{
+        background-color: #fff;
+    }
+
+    nav > a > span:nth-child(2){
+        color: #000;
+    }
+
+    .left {
+        background-color: rgba(0, 0, 0, 0.205);
+        text-align: left;
+    }
+
+    
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../images/Rectangle\ 2.jpg);
+    background-position: right;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+   
+}
