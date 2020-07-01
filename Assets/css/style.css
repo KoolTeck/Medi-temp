@@ -57,7 +57,7 @@ nav > a > span:nth-child(2){
 
 .trans{
     background-color: rgba(0, 0, 0, 0.274); 
-    height: 700px;  
+    /* height: 700px;   */
     text-align: center;
     color: #ffff;
     line-height: 40px;
@@ -76,7 +76,7 @@ div.container.box h2{
 
 div.container.box p{
     font-size: 80px;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 div.container.box p span {
@@ -352,6 +352,108 @@ i.fas.fa-angle-up{
     /* height: 250px; */
 }
 
+/* specialist section */
+
+#specialist h3{
+    color: #3A3A3A;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+#specialist div.card{
+    border: 1px solid rgba(0, 81, 255, 0.233);
+    border-radius: 10px;
+}
+
+#specialist div.card img{
+    border: none;
+}
+
+#specialist div.card span p{
+   color: #0052FF; 
+}
+
+#specialist div.card p{
+   color:  rgba(58, 58, 58, 0.5);
+   font-size: 12px;
+   padding: 5px;
+   line-height: 30px;
+}
+
+/* testimonial section */
+
+
+#testimonial{
+    background:
+           /* top, transparent black, faked with gradient */ 
+           linear-gradient(
+            rgba(0, 82, 255, 0.5), 
+            rgba(0, 82, 255, 0.5)
+           ),
+           /* bottom, image */
+         url(../images/Rectangle\ 41-1.png);
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+           height: 505px;
+       }
+
+#testimonial h1{
+    color: #ffffff;
+    padding-top: 80px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#testimonial div.testifire{
+    width: 103px;
+    height: 93px;
+    margin: 0 auto;
+   background-image: url(../images/Ellipse\ 3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#testimonial p{
+    color: #ffffff;
+    padding-top: 30px;
+    font-style: italic;
+}
+
+#testimonial span{
+    color: #ffffff;
+}
+
+#carouselExampleSlidesOnly > div > div:nth-child(1) > span > span{
+    color: #0052FF;
+}
+
+/* appointment section */
+#appoint div.col-lg-6.one{
+    /* border: 2px solid rebeccapurple; */
+    height: 620px;
+    background-image: url(../images/austin-distel-7bMdiIqz_J4-unsplash\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#appoint div.col-lg-6.two{
+    padding: 10px,
+    
+}
+
+    
+#appoint div.col-lg-6.two form{
+    margin-top: 80px;
+    padding: 10px;
+    text-align: left;
+}
+
+#appoint div.col-lg-6.two form h2{
+    font-size: 30px;
+}
 
 /* landing page media querry */
 @media screen and (max-width:1150px) { 
